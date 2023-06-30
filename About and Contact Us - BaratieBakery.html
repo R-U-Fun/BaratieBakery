@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Contact Us / About Us - BaratieBakery</title>
+    <link rel="stylesheet" href="CSS/About and Contact Us - BaratieBakery.css">
+
+</head>
+<body>
+	<div id="HeaderHere"></div>
+    <script>
+        load("Header - BaratieBakery.php");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById("HeaderHere").innerHTML = req.responseText;
+        }
+    </script>
+	
+    <br><br><br><br><br><br><br><br>
+    
+    <table width="670" align="center">
+        
+        <tr>
+            <td id="MidHead">
+                <div id="AboutUs"><h1> Welcome To Baratie Bakery</h1></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="Mid">
+                <div>
+                    <br>
+                    <p class="Mid">Baratie Bakery first opened its doors in 2020 on 007, Konoha, Hidden Leaf, Skypiea.</p>
+                    <p class="Mid">It was one of the few bakeries, if not the very first, to offer delivery service in the city!</p>
+                    <p class="Mid">In 2021, the Baratie Bakery unveiled its special products that instantly became an internet sensation, attracting customers from around the country to attempt to eat the products.</p>
+                    <p class="Mid">What many people hadn't expected was to find amazing products that are more than just a bakery item. </p>
+                    <br>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="ContactUs"></div>
+                <br><br><br><br><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td id="MidHead">
+                <h1> Contact Us </h1>
+            </td>
+        </tr>
+        <tr>
+            <td id="Mid">
+                <div>
+                    <br>
+                    <p class="Mid">+94 76 850 5131</p>
+                    <p class="Mid">baratiebakery@gmail.com</p>
+                    <p class="Mid">007, Konoha, Hidden Leaf, Skypiea.</p>
+                    <br>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <br><br><br><br><br>
+    
+</body>
+	<div id="FooterHere"></div>
+    <script>
+        load("Footer - BaratieBakery.php");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById("FooterHere").innerHTML = req.responseText;
+        }
+    </script>
+	<script src="JS/Content.js"></script>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> FAQ - BaratieBakery</title>
+    <link rel="stylesheet" href="CSS/About and Contact Us - BaratieBakery.css">
+
+</head>
+<body>
+	<div id="HeaderHere"></div>
+    <script>
+        load("Header - BaratieBakery.php");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById("HeaderHere").innerHTML = req.responseText;
+        }
+    </script>
+	
+    <br><br><br><br><br><br><br><br>
+    
+    <table width="1000" align="center">
+        
+        <tr>
+            <td id="MidHead">
+                <h1> FAQ</h1>
+            </td>
+        </tr>
+        <tr>
+            <td id="Mid">
+                <div id="Terms & Conditions">
+                    <br><br>
+                    <p class="Question">Q: Can I order Baratie Bakery delivery with Uber Eats?</p>
+                    <p class="Answer">A: Yes. Baratie Bakery delivery is available on Uber Eats.</p>
+                    <br><br><br>
+                    <p class="Question">Q: How do I order Baratie Bakery delivery online?</p>
+                    <p class="Answer">A: There are 2 ways to place an order: order online using the Baratie Bakery website or on the Uber Eats app. After you’ve looked over the Baratie Bakery menu, simply choose the items you’d like to order and add them to your cart. Next, you’ll be able to review, place, and track your order.</p>
+                    <br><br><br>
+                    <p class="Question">Q: How big will our cake be?</p>
+                    <p class="Answer">A: You may order your cake based on visual size or based on actual guest count.  Cakes are charged based on SIZE + DECOR LABOR<br>Example based on visual size:  “I only have 20 guests, but I want a 4-tier cake to look huge!”  (the smallest 4-tier cake will feed approx. 90 guests, so you will be paying for 90 guests)<br>Example based on Guest Count:  “We have 260 guests to feed” (we would suggest you get a 4-5 tier cake + backup cakes;  the backups remain in the kitchen to allow the banquet team to start cutting early enough to get your guests served efficiently)<br>If you order a cake based on guest count, please sizing up to us.<br>Wedding cakes feed more guests because they are cut by professionals.<br>Average party cake feeds: 6” round=10-12; 8” round=20-25; 10” round=30-35; 12” round=50-60</p>
+                    <br><br><br>
+                    <p class="Question">Q: What type of payments do you accept?</p>
+                    <p class="Answer">A: We currently accept CASH, checks, VISA, MasterCard, American Express, & Discover<br>All orders require payment in advance.</p>
+                    <br><br><br>
+                    <p class="Question">Q: How do you determine the price of cake?</p>
+                    <p class="Answer">A: Cakes are typically priced by number of SERVINGS they feed + the LABOR for the design. The more detail or time required in labor cost, the more it’ll cost.  (Sometimes “simple” isn’t so simple, and “elaborate” is easier than you think, so just ask :)</p>
+                    <br><br><br>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <br><br><br><br><br>
+    
+</body>
+	<div id="FooterHere"></div>
+    <script>
+        load("Footer - BaratieBakery.php");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById("FooterHere").innerHTML = req.responseText;
+        }
+    </script>
+	<script src="JS/Content.js"></script>
+</html>

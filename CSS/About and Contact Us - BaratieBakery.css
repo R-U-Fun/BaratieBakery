@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+	background-color: #DEC3FF;
+}
+h1
+{
+    width: 80%;
+    margin: auto;
+    padding: 25px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+p.Mid
+{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+#Mid
+{
+    background-color: #EFE1FF;
+    box-shadow: 0 0 10px 2px #2B0047;
+}
+#MidHead
+{
+    background-color: #BB86FC;
+    box-shadow: 0 0 10px 2px #2B0047;
+}
+
+li
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+p.Question
+{
+    width: 90%;
+    margin-right: 400px;
+    margin-left: 40px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+p.Answer
+{
+    width: 90%;
+    margin-right: 400px;
+    margin-left: 60px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

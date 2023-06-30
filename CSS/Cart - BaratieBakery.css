@@ -1,0 +1,175 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+	background-color: #DEC3FF
+}
+h1
+{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#OuterConentRow
+{
+    display: grid;
+    grid-gap: 70px 20px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+#OuterConentRow img
+{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#box 
+{
+    width: 100%;
+    height: 100%;
+    background-color: #EFE1FF;
+    align-content: center;
+    border-radius: 20px;
+    transition: box-shadow .2s;
+}
+
+#box:hover
+{
+    box-shadow: 1px 1px 10px 3px #2B0047;
+    width: 100%;
+}
+
+#ProductDetails
+{
+    padding: 0 15px;
+    text-transform: capitalize;
+    transition: padding .5s;
+}
+
+#box a 
+{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+h3
+{
+    font-size: 16px;
+}
+h2
+{
+	color: #2B0047;
+}
+h4
+{
+    width: 80%;
+	margin: auto;
+	color: #2B0047;
+	padding: 10px 10px 25px 10px;
+    letter-spacing: 2px;
+	font-size: 36px;
+    font-weight: 700px;
+}
+
+#box a
+{
+	font-size: 14px;
+	color: #2B0047;
+    letter-spacing: 1px;
+	text-align: center;
+	align-content: center;
+}
+
+
+#Order
+{
+  width:auto;
+  background-color: #AE6CFF;
+  border: none;
+  color: white;
+  padding: 12px 50px 12px 50px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0px;
+  border-radius: 25px;
+  transition: box-shadow .2s;
+    cursor: pointer;
+}
+#Order:hover
+{
+    box-shadow: 1px 1px 10px 3px #2B0047;
+}
+
+
+#Checkout
+{
+  width:auto;
+  background-color: #AE6CFF;
+  letter-spacing: 2px;
+  border: none;
+  color: white;
+  padding: 30px 50px 30px 50px; 
+  text-align: center;
+  text-decoration:none;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 24px;
+  margin: 5px 200px;
+  border-radius: 25px;
+  transition: box-shadow .2s;
+}
+#Checkout:hover
+{
+    box-shadow: 1px 1px 15px 5px #2B0047;
+}
+
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media(max-width: 1070px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+}
+@media(max-width: 850px)
+{
+    h1 
+    {
+        width: 80%;
+    }   
+}
+@media(max-width: 650px)
+{
+    h1
+    {
+        font-size: 20px;
+    }
+    h1 
+    {
+        width: 90%;
+    }
+}
+@media(max-width: 600px)
+{
+    h1 
+    {
+        width: 70%;
+    }
+}
+@media(max-width: 505px)
+{
+    h1 
+    {
+        width: 80%;
+    }
+}

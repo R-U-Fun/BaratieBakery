@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+	background-color: #DEC3FF
+}
+h1
+{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2B0047;
+}
+
+#box 
+{
+    width: 100%;
+    background-color: #EFE1FF;
+    align-content: center;
+    border-radius: 50px;
+    transition: box-shadow .2s;
+}
+
+#box:hover
+{
+    box-shadow: 1px 1px 15px 10px #2B0047;
+}
+#box a 
+{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+
+
+#HomeConentRow
+{
+    display: grid;
+    grid-gap: 70px 20px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    margin:auto;
+    padding-bottom: 40px;
+	/*
+	display: grid;
+    grid-gap: 50px 5px;
+    width: 25%;
+    margin: auto;
+    padding-bottom: 40px;*/
+}
+#HomeConentRow img
+{
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#ProductDetails
+{
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+
+#HomeBakeryName 
+{
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+#HomeBakeryName a
+{
+    text-decoration: none;
+    color: #2B0047;
+}
+
+#HomeBakeryName a:hover
+{
+    color:#BB86FC;
+    cursor:default;
+}
+
+
+#HomeName
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #DEC3FF;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+#HomeName a
+{
+	color: #2B0047;
+    text-decoration: none;
+    position: relative;
+	cursor:default;
+    transition: font-size 1s, letter-spacing 1s;
+}
+#HomeName a:hover
+{
+    font-size: 150px;
+    letter-spacing: 20px;
+}
